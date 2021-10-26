@@ -685,7 +685,8 @@ namespace at.jku.ssw.cc
                     Check(Token.RPAR);
                     Code.seleccLaProdEnLaGram(8);
                     pars.Nodes.Add(".");
-                    pars.ExpandAll();
+                    MessageBoxCon3Preg();
+                    //pars.ExpandAll();
                     methodDecl.Nodes.Add("')'");
                     MessageBoxCon3Preg();
                 }
